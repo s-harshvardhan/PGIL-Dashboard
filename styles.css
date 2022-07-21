@@ -17,7 +17,7 @@ body {
 .card {
     background-color: #fbf7f1 !important;
     transition: 500ms;
-    border-radius: 1px;
+    border-radius: 1px !important;
 }
 
 /* .sample-card {
