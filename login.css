@@ -1,0 +1,53 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+    /* height: 100% !important; */
+}
+
+#main {
+    background-color: #cbcbcb;
+    color: #2e2e2e !important;
+    height: 100vh;
+    padding-top: 10rem;
+    /* padding-bottom: 15rem; */
+    position: relative;
+}
+
+.nav-link {
+    border-radius: 2px !important;
+    width: 100% !important;
+    background-color: #212529 !important;
+    color: white !important;
+}
+
+.navbar {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.active {
+    background-color: gainsboro !important;
+    color: #2e2e2e !important;
+}
+
+.nav-pills {
+    padding: 5px !important;
+}
+
+#input-form {
+    /* width: 80%; */
+    /* max-width: 400px; */
+    margin: auto;
+    /* height: 45rem; */
+}
+
+#footer {
+    position: absolute;
+    bottom:0 !important;
+    width:100%;
+    /* height:60px;    */
+    background:#cbcbcb;
+    font-size: 0.7rem;
+    padding: 2rem;
+    color: grey;
+    /* padding-top: 15rem; */
+ }

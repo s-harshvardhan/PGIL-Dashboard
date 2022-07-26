@@ -1,0 +1,112 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.nav-link {
+    border-radius: 2px !important;
+    width: 100% !important;
+    background-color: #212529 !important;
+    color: white !important;
+}
+
+.navbar {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.active {
+    background-color: gainsboro !important;
+    color: #2e2e2e !important;
+}
+
+.nav-pills {
+    padding: 5px !important;
+}
+
+#main {
+    background-color: #cbcbcb;
+    color: #2e2e2e !important;
+    padding-top: 80px;
+    height: 100vh;
+    /* padding-bottom: 120px; */
+    /* position: relative; */
+    /* padding-bottom: 100px; */
+}
+
+.container {
+    text-align: center;
+}
+
+#cost-sheet {
+    background-color: blanchedalmond;
+}
+
+#style-tag {
+    background-color: #2e2e2e;
+    color: #cbcbcb;
+}
+
+#costing-image {
+    width: 19rem;
+    height: 19rem;
+    object-fit: contain;
+}
+
+#styling-image {
+    width: 19rem;
+    height: 19rem;
+    object-fit: contain;
+}
+
+#costing-button {
+    width: 100%;
+}
+
+#styling-button {
+    width: 100%;
+}
+
+#tagModalClose {
+    margin-right: 0px;
+}
+
+.tagContainer {
+    width: 90% !important;
+    border: solid 3px black;
+    border-radius: 5px;
+    font-size: 0.6rem;
+    padding: 5px;
+}
+
+.tagInputRow {
+    margin-bottom: 10px;
+}
+
+.tagInputLabels {
+    text-align: left;
+}
+
+.tagInputBox {
+    font-size: 0.6rem !important;
+}
+
+@media only screen and (max-width: 700px) {
+    #cost-sheet {
+        padding-bottom: 20px;
+    }
+    #style-tag {
+        padding-bottom: 20px;
+    }
+}
+
+#footer {
+    position: relative;
+    bottom:0;
+    width:100%;
+    /* height:60px;    */
+    background:#cbcbcb;
+    font-size: 0.7rem;
+    padding: 2rem;
+    color: grey;
+ }
+
